@@ -1,0 +1,122 @@
+{
+  "hypotheses": [
+    {
+      "id": "H1",
+      "hypothesis": "Audience fatigue causing ROAS decline",
+      "description": "Found 41 campaigns with >20% ROAS decline over time",
+      "evidence": {
+        "campaigns_affected": [
+          "MEN  Signature  Soft",
+          "MEN -ignature Soft",
+          "MEN COMFORTMAX LAUNCH",
+          "MEN SIGNATURE SOFT",
+          "MEN Sign-ture Soft"
+        ],
+        "avg_decline_pct": -68.02982583718043
+      },
+      "priority": "HIGH",
+      "validation_method": "time_series_regression"
+    },
+    {
+      "id": "H2",
+      "hypothesis": "Creative type impacts ROAS significantly",
+      "description": "UGC outperforms Video",
+      "evidence": {
+        "best_creative_type": "UGC",
+        "best_roas": 10.149270072992701,
+        "worst_creative_type": "Video",
+        "worst_roas": 8.848021491782553,
+        "roas_difference": 1.3012485812101477
+      },
+      "priority": "HIGH",
+      "validation_method": "anova_test"
+    },
+    {
+      "id": "H3",
+      "hypothesis": "Platform choice affects ROAS",
+      "description": "Facebook has better ROAS than Instagram",
+      "evidence": {
+        "platforms": [
+          {
+            "platform": "Facebook",
+            "roas": 9.910936809544852
+          },
+          {
+            "platform": "Instagram",
+            "roas": 9.353518850987433
+          }
+        ]
+      },
+      "priority": "MEDIUM",
+      "validation_method": "t_test"
+    },
+    {
+      "id": "H4",
+      "hypothesis": "Low CTR linked to specific message patterns",
+      "description": "2891 ads have CTR below threshold",
+      "evidence": {
+        "low_ctr_count": 2891,
+        "avg_ctr": 0.009981632653061226,
+        "common_messages": {
+          "Seamless confidence for every day \u2014 new women wire\u2011free bras.": 35,
+          "Push comfort, not wires \u2014 everyday women bras.": 35,
+          "Ultra\u2011soft waistband, no marks \u2014 premium women bras.": 34
+        }
+      },
+      "priority": "HIGH",
+      "validation_method": "message_analysis"
+    },
+    {
+      "id": "H5",
+      "hypothesis": "Audience type affects performance differently",
+      "description": "Different audience segments show varying engagement levels",
+      "evidence": {
+        "audience_stats": [
+          {
+            "audience_type": "Broad",
+            "roas": 7.993291999999999,
+            "ctr": 0.012628228708516594,
+            "spend": 1230129.32
+          },
+          {
+            "audience_type": "Lookalike",
+            "roas": 9.777598290598291,
+            "ctr": 0.01371268085106383,
+            "spend": 575486.12
+          },
+          {
+            "audience_type": "Retargeting",
+            "roas": 14.427612667478684,
+            "ctr": 0.01346990291262136,
+            "spend": 299964.46
+          }
+        ]
+      },
+      "priority": "MEDIUM",
+      "validation_method": "segmentation_analysis"
+    }
+  ],
+  "validated_insights": [
+    {
+      "hypothesis_id": "H1",
+      "validated": true,
+      "confidence": 1.0,
+      "method": "linear_regression",
+      "details": [
+        {
+          "campaign": "MEN  Signature  Soft",
+          "slope": -0.010633912367124703,
+          "r_squared": 0.008504022859189275,
+          "declining": true
+        },
+        {
+          "campaign": "MEN COMFORTMAX LAUNCH",
+          "slope": -0.2528105065666042,
+          "r_squared": 0.01567935717124358,
+          "declining": true
+        }
+      ],
+      "conclusion": "Time decay detected in 2/2 campaigns"
+    }
+  ]
+}

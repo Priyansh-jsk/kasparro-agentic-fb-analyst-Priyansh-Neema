@@ -1,0 +1,312 @@
+[
+  {
+    "campaign_name": "Men Bold Colors Drop",
+    "adset_name": "Adset-3 Broad",
+    "current_performance": {
+      "avg_ctr": 0.009265,
+      "avg_roas": 1.8097499999999997,
+      "spend": 23065.37
+    },
+    "current_message": "Stretch that snaps back \u2014 durable men boxers.",
+    "current_creative_type": "Video",
+    "recommendations": [
+      {
+        "message": "Invisible under tees \u2014 seamless men athletic briefs.",
+        "strategy": "adapt_best_performer",
+        "expected_lift": "20-30%"
+      },
+      {
+        "message": "Stretch that snaps back \u2014 durable men boxers. Try now \u2014 limited time offer!",
+        "strategy": "add_strong_cta",
+        "expected_lift": "10-15%"
+      },
+      {
+        "message": "Premium comfort meets everyday style \u2014 essentials",
+        "strategy": "emphasize_benefits",
+        "expected_lift": "15-20%"
+      }
+    ],
+    "rationale": [
+      "Consider testing Image format"
+    ]
+  },
+  {
+    "campaign_name": "Men Premium Modal",
+    "adset_name": "Adset-5 LAL2",
+    "current_performance": {
+      "avg_ctr": 0.010037777777777777,
+      "avg_roas": 8.445555555555554,
+      "spend": 20393.409999999996
+    },
+    "current_message": "Summer\u2011ready essentials \u2014 sweat\u2011wicking men boxers.",
+    "current_creative_type": "Video",
+    "recommendations": [
+      {
+        "message": "Invisible under tees \u2014 seamless men athletic briefs.",
+        "strategy": "adapt_best_performer",
+        "expected_lift": "20-30%"
+      },
+      {
+        "message": "Summer\u2011ready essentials \u2014 sweat\u2011wicking men boxers. Try now \u2014 limited time offer!",
+        "strategy": "add_strong_cta",
+        "expected_lift": "10-15%"
+      },
+      {
+        "message": "Premium comfort meets everyday style \u2014 essentials",
+        "strategy": "emphasize_benefits",
+        "expected_lift": "15-20%"
+      }
+    ],
+    "rationale": [
+      "Consider testing Image format"
+    ]
+  },
+  {
+    "campaign_name": "Men Bold Colors Drop",
+    "adset_name": "Adset-5 LAL2",
+    "current_performance": {
+      "avg_ctr": 0.008822727272727272,
+      "avg_roas": 2.7372727272727273,
+      "spend": 20298.22
+    },
+    "current_message": "Hot & comfy: men athletic briefs now 20% off \u2014 feel the difference.",
+    "current_creative_type": "Video",
+    "recommendations": [
+      {
+        "message": "Invisible under tees \u2014 seamless men athletic briefs.",
+        "strategy": "adapt_best_performer",
+        "expected_lift": "20-30%"
+      },
+      {
+        "message": "Hot & comfy: men athletic briefs now 20% off \u2014 feel the difference. Try now \u2014 limited time offer!",
+        "strategy": "add_strong_cta",
+        "expected_lift": "10-15%"
+      },
+      {
+        "message": "Premium comfort meets everyday style \u2014 essentials",
+        "strategy": "emphasize_benefits",
+        "expected_lift": "15-20%"
+      }
+    ],
+    "rationale": [
+      "Consider testing Image format"
+    ]
+  },
+  {
+    "campaign_name": "WOMEN Seamless Everyday",
+    "adset_name": "Adset-2 Broad",
+    "current_performance": {
+      "avg_ctr": 0.00862,
+      "avg_roas": 10.318857142857143,
+      "spend": 18191.75
+    },
+    "current_message": "Doctors recommend breathable organic cotton \u2014 meet our women panties.",
+    "current_creative_type": "Video",
+    "recommendations": [
+      {
+        "message": "Invisible under tees \u2014 seamless men athletic briefs.",
+        "strategy": "adapt_best_performer",
+        "expected_lift": "20-30%"
+      },
+      {
+        "message": "Doctors recommend breathable organic cotton \u2014 meet our women panties. Try now \u2014 limited time offer!",
+        "strategy": "add_strong_cta",
+        "expected_lift": "10-15%"
+      },
+      {
+        "message": "Premium comfort meets everyday style \u2014 essentials",
+        "strategy": "emphasize_benefits",
+        "expected_lift": "15-20%"
+      }
+    ],
+    "rationale": [
+      "Consider testing Image format"
+    ]
+  },
+  {
+    "campaign_name": "Men Premium Modal",
+    "adset_name": "Adset-4 Retarget",
+    "current_performance": {
+      "avg_ctr": 0.009363636363636364,
+      "avg_roas": 7.822727272727272,
+      "spend": 17994.43
+    },
+    "current_message": "Doctors recommend breathable organic cotton \u2014 meet our men trunks.",
+    "current_creative_type": "UGC",
+    "recommendations": [
+      {
+        "message": "Doctors recommend breathable cotton \u2014 meet our men athletic briefs.",
+        "strategy": "adapt_best_performer",
+        "expected_lift": "20-30%"
+      },
+      {
+        "message": "Doctors recommend breathable organic cotton \u2014 meet our men trunks. Try now \u2014 limited time offer!",
+        "strategy": "add_strong_cta",
+        "expected_lift": "10-15%"
+      },
+      {
+        "message": "Premium comfort meets everyday style \u2014 essentials",
+        "strategy": "emphasize_benefits",
+        "expected_lift": "15-20%"
+      }
+    ],
+    "rationale": [
+      "Consider testing Image format"
+    ]
+  },
+  {
+    "campaign_name": "women Summer Invisible",
+    "adset_name": "Adset-3 ATC",
+    "current_performance": {
+      "avg_ctr": 0.01080357142857143,
+      "avg_roas": 5.077857142857143,
+      "spend": 17757.43
+    },
+    "current_message": "Seamless confidence for every day \u2014 new women panties.",
+    "current_creative_type": "Video",
+    "recommendations": [
+      {
+        "message": "Invisible under tees \u2014 seamless men athletic briefs.",
+        "strategy": "adapt_best_performer",
+        "expected_lift": "20-30%"
+      },
+      {
+        "message": "Seamless confidence for every day \u2014 new women panties. Try now \u2014 limited time offer!",
+        "strategy": "add_strong_cta",
+        "expected_lift": "10-15%"
+      },
+      {
+        "message": "Premium comfort meets everyday style \u2014 essentials",
+        "strategy": "emphasize_benefits",
+        "expected_lift": "15-20%"
+      }
+    ],
+    "rationale": [
+      "Consider testing Image format"
+    ]
+  },
+  {
+    "campaign_name": "Men Premium Modal",
+    "adset_name": "Adset-2 Retarget",
+    "current_performance": {
+      "avg_ctr": 0.009723684210526315,
+      "avg_roas": 6.508421052631578,
+      "spend": 17412.380000000005
+    },
+    "current_message": "Cooling mesh panels for workouts \u2014 men briefs you\u2019ll actually love.",
+    "current_creative_type": "Video",
+    "recommendations": [
+      {
+        "message": "Invisible under tees \u2014 seamless men athletic briefs.",
+        "strategy": "adapt_best_performer",
+        "expected_lift": "20-30%"
+      },
+      {
+        "message": "Cooling mesh panels for workouts \u2014 men briefs you\u2019ll actually love. Try now \u2014 limited time offer!",
+        "strategy": "add_strong_cta",
+        "expected_lift": "10-15%"
+      },
+      {
+        "message": "Premium comfort meets everyday style \u2014 essentials",
+        "strategy": "emphasize_benefits",
+        "expected_lift": "15-20%"
+      }
+    ],
+    "rationale": [
+      "Consider testing Image format"
+    ]
+  },
+  {
+    "campaign_name": "Men Bold Colors Drop",
+    "adset_name": "Adset-2 Retarget",
+    "current_performance": {
+      "avg_ctr": 0.008382051282051281,
+      "avg_roas": 2.6738461538461538,
+      "spend": 17042.940000000002
+    },
+    "current_message": "3\u2011pack deal ends tonight \u2014 upgrade your men drawer with briefs.",
+    "current_creative_type": "Video",
+    "recommendations": [
+      {
+        "message": "Invisible under tees \u2014 seamless men athletic briefs.",
+        "strategy": "adapt_best_performer",
+        "expected_lift": "20-30%"
+      },
+      {
+        "message": "3\u2011pack deal ends tonight \u2014 upgrade your men drawer with briefs. Try now \u2014 limited time offer!",
+        "strategy": "add_strong_cta",
+        "expected_lift": "10-15%"
+      },
+      {
+        "message": "Premium comfort meets everyday style \u2014 essentials",
+        "strategy": "emphasize_benefits",
+        "expected_lift": "15-20%"
+      }
+    ],
+    "rationale": [
+      "Consider testing Image format"
+    ]
+  },
+  {
+    "campaign_name": "WOMEN Seamless Everyday",
+    "adset_name": "Adset-4 WC",
+    "current_performance": {
+      "avg_ctr": 0.00888125,
+      "avg_roas": 11.212812499999998,
+      "spend": 16882.48
+    },
+    "current_message": "Breathable microfiber that moves with you \u2014 limited offer on women boyshorts.",
+    "current_creative_type": "Carousel",
+    "recommendations": [
+      {
+        "message": "3\u2011pack deal ends tonight \u2014 upgrade your men drawer with inner vests.",
+        "strategy": "adapt_best_performer",
+        "expected_lift": "20-30%"
+      },
+      {
+        "message": "Breathable microfiber that moves with you \u2014 limited offer on women boyshorts. Try now \u2014 limited time offer!",
+        "strategy": "add_strong_cta",
+        "expected_lift": "10-15%"
+      },
+      {
+        "message": "Premium comfort meets everyday style \u2014 essentials",
+        "strategy": "emphasize_benefits",
+        "expected_lift": "15-20%"
+      }
+    ],
+    "rationale": [
+      "Consider testing Image format"
+    ]
+  },
+  {
+    "campaign_name": "Men Bold Colors Drop",
+    "adset_name": "Adset-4 Broad",
+    "current_performance": {
+      "avg_ctr": 0.008878571428571427,
+      "avg_roas": 3.1414285714285706,
+      "spend": 16660.699999999997
+    },
+    "current_message": "Invisible under tees \u2014 seamless men inner vests.",
+    "current_creative_type": "Video",
+    "recommendations": [
+      {
+        "message": "Invisible under tees \u2014 seamless men athletic briefs.",
+        "strategy": "adapt_best_performer",
+        "expected_lift": "20-30%"
+      },
+      {
+        "message": "Invisible under tees \u2014 seamless men inner vests. Try now \u2014 limited time offer!",
+        "strategy": "add_strong_cta",
+        "expected_lift": "10-15%"
+      },
+      {
+        "message": "Premium comfort meets everyday style \u2014 essentials",
+        "strategy": "emphasize_benefits",
+        "expected_lift": "15-20%"
+      }
+    ],
+    "rationale": [
+      "Consider testing Image format"
+    ]
+  }
+]
