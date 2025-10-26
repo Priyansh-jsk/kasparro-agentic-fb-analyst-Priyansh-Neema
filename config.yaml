@@ -1,0 +1,28 @@
+python_version: "3.10"
+random_seed: 42
+confidence_min: 0.6
+use_sample_data: false
+
+data:
+  csv_path: "data/synthetic_fb_ads_undergarments.csv"
+  
+# thresholds for analysis
+thresholds:
+  low_ctr: 0.014
+  low_roas: 2.5
+  fatigue_days: 14
+  min_spend: 100
+  
+# outpur result setting
+outputs:
+  reports_dir: "reports"
+  logs_dir: "logs"
+  insights_file: "insights.json"
+  creatives_file: "creatives.json"
+  report_file: "report.md"
+
+# agent settings
+agents:
+  max_iterations: 3
+  hypothesis_count: 5
+  top_creative_samples: 10
