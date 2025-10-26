@@ -30,16 +30,6 @@ cp synthetic_fb_ads_undergarments.csv data/
 
 ### Run Analysis
 
-# Basic analysis
-python run.py "Analyze ROAS drop in last 7 days"
-
-# Creative recommendations
-python run.py "Generate creative ideas for low CTR campaigns"
-
-# Platform comparison
-python run.py "Compare Facebook vs Instagram performance"
-
-# Full analysis (default)
 python run.py
 
 ## Project Structure
@@ -69,17 +59,23 @@ python run.py
 Edit `config.yaml` to customize:
 
 yaml
+
 put thresholds:
   low_ctr: 0.014        # CTR threshold for underperformance
+  
   low_roas: 2.5         # ROAS threshold
+  
   fatigue_days: 14      # Days to detect audience fatigue
   
 agents:
+
   hypothesis_count: 5           # Max hypotheses to generate
+  
   top_creative_samples: 10      # Top recommendations to show
 
 
 ## Running Tests
 
 bash
+
 python test_evaluator.py
