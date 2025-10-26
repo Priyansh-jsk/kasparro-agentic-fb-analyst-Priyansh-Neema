@@ -10,30 +10,44 @@ Multi-agent system for autonomous Facebook Ads performance analysis and creative
 
 ### Installation
 
-bash
-# Create virtual environment
-python -m venv mykasparro                      # Environment name i name it mykasparro
+# Create virtual environment:
 
-# Activate virtual environment
-mykasparro\Scripts\activate                    # In windows system
+_python -m venv mykasparro_                      # Create virtual Environment, give any name I have given mykasparro
 
-# Install dependencies
-pip install -r requirements.txt
+# Activate virtual environment:
 
-### Setup Data
+_mykasparro\Scripts\activate_                    # In windows system
 
-Place your CSV file:
-bash
-mkdir -p data
-cp synthetic_fb_ads_undergarments.csv data/
+# Install dependencies:
 
+_pip install -r requirements.txt_
 
-### Run Analysis
+## Configuration
 
-python run.py
+python_version: "3.10"
+
+random_seed: 42
+
+confidence_min: 0.6
+
+use_sample_data: false
+
+**Edit `config.yaml` to customize:**
+
+put thresholds:
+  low_ctr: 0.014        # CTR threshold for underperformance
+  
+  low_roas: 2.5         # ROAS threshold
+  
+  fatigue_days: 14      # Days to detect audience fatigue
+  
+agents:
+
+  hypothesis_count: 5           # Max hypotheses to generate
+  
+  top_creative_samples: 10      # Top recommendations to show
 
 ## Project Structure
-
 
 ├── data/
 │   └── synthetic_fb_ads_undergarments.csv
@@ -53,29 +67,21 @@ python run.py
 ├── creative_generator.py
 └── test_evaluator.py
 
+<img width="379" height="657" alt="Screenshot (23)" src="https://github.com/user-attachments/assets/c627fc92-7480-48fd-87c9-39b6ba4fabab" />
 
-## Configuration
 
-Edit `config.yaml` to customize:
+### Run Analysis
 
-yaml
+_python run.py_
 
-put thresholds:
-  low_ctr: 0.014        # CTR threshold for underperformance
-  
-  low_roas: 2.5         # ROAS threshold
-  
-  fatigue_days: 14      # Days to detect audience fatigue
-  
-agents:
+## Outputs
+- reports/report.md
+- reports/insights.json
+- reports/creatives.json
 
-  hypothesis_count: 5           # Max hypotheses to generate
-  
-  top_creative_samples: 10      # Top recommendations to show
-
+## Logs
+- JSON logs logs\analysis_log.json
 
 ## Running Tests
 
-bash
-
-python test_evaluator.py
+_python test_evaluator.py_
